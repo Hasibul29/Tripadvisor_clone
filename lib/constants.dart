@@ -40,3 +40,25 @@ final List<Member> members = [
   Member(Icons.group_outlined, "Friend"),
   Member(Icons.family_restroom_outlined, "Family")
 ];
+
+class TourCategory {
+  String text;
+  bool isSelected;
+
+  TourCategory({required this.text, this.isSelected = false});
+}
+
+List<TourCategory> tourCategories = [
+  TourCategory(text: "Must-see Attractions"),
+  TourCategory(text: "Great Food"),
+  TourCategory(text: "Hidden Gems"),
+  TourCategory(text: "Ocean Adventures in Oahu"),
+  TourCategory(text: "Sunset Cruise and Fireworks"),
+  TourCategory(text: "Island Flavors of Oahu"),
+  TourCategory(text: "Surfing"),
+  TourCategory(text: "Pearl Harbor Historic Sites"),
+  TourCategory(text: "Nature and Wildlife"),
+  TourCategory(text: "Nightlife and Entertainment"),
+  TourCategory(text: "Luxury Shopping"),
+  TourCategory(text: "Outdoors"),
+];

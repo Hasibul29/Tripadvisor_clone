@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tripadvisor/screens/AITrips/ai_trip.dart';
 import 'package:tripadvisor/screens/signin_signup.dart';
 import 'package:provider/provider.dart';
 

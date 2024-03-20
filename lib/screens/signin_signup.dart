@@ -38,11 +38,10 @@ class SignupOrSignin extends StatelessWidget {
                             decoration: TextDecoration.underline),
                       ))),
               const SizedBox(height: kDefaultPadding),
-              const Icon(
-                Icons.circle,
-                size: 80,
-                color: kSecondaryColor,
-              ),
+              SizedBox(
+                  height: 80,
+                  width: 80,
+                  child: Image.asset("assets/icons/tripadvisor-icon.png")),
               const SizedBox(height: kDefaultPadding),
               Text(
                 "Sign in to start planning your trip.",

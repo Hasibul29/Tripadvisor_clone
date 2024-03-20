@@ -46,7 +46,6 @@ class _AiTripState extends State<AiTrip> {
 
   @override
   Widget build(BuildContext context) {
-    print("Update hoisi");
     return Scaffold(
       appBar: AiTripAppBar(
         title: title,
@@ -76,7 +75,9 @@ class _AiTripState extends State<AiTrip> {
                     updateScreenCompletion: updateScreenCompletion,
                   ),
                   const Page3(),
-                  const Page4(),
+                  Page4(
+                    updateScreenCompletion: updateScreenCompletion,
+                  ),
                 ],
               ),
             ),
