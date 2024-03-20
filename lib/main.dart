@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       title: 'Tripadvisor',
       theme: lightThemeData(context),
       debugShowCheckedModeBanner: false,
-      home: const AiTrip(),
+      home: const SignupOrSignin(),
     );
   }
 }
